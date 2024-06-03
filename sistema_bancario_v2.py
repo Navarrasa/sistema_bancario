@@ -1,8 +1,3 @@
-# Keyword only ==> *
-# Positional Only ==> /
-# TODO Criar uma lista de usuários e contas bancárias
-# TODO Criar duas novas funções: Cadastrar usuário e Cadastrar conta bancária
-
 def saque(*,saldo, valor, extrato, limite, numero_saques, limite_saques):
 
     excedeu_saldo = valor > saldo
